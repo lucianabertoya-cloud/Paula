@@ -553,8 +553,8 @@ export default function App() {
   const sueno_pct = Math.min(100, ((parseFloat(reg.sueno) || 0) / 8) * 100);
 
   // ── ElevenLabs TTS — Voz "Lucía" argentina ───────────────────────────────
-  const EL_API_KEY = "sk_d53161c354649880e7b8d19bbda1323f739703d8bb416017";
-  const EL_VOICE_ID = "yA5jrK1S9cpCAojBYyMu"; // Lucía — Warm, Expressive, Argentino
+  const EL_API_KEY = "0732b3adb3c2bfb7b53bddc0973d75c2b1873991180d429b3a05a715376fc884";
+  const EL_VOICE_ID = "ChvF2eSRaJsHDVJhdmbG"; // Lucía — Warm, Expressive, Argentino
 
   async function hablar(texto) {
     if (!texto?.trim()) return;
